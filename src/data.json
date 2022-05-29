@@ -1,0 +1,299 @@
+[
+  {
+    "RU": {
+      "English elementary": {
+        "description": "English elementary",
+        "0": {
+          "name": "Chapter 1",
+            "0": {
+              "url": "https://firebasestorage.googleapis.com/v0/b/tecedu-bd07a.appspot.com/o/videoplayback.mp4?alt=media&token=938bb56a-f989-4718-9020-8bbfe5407bf9",
+              "homework": false,
+              "type": "overview",
+              "name": "Chapter 1"
+            }
+        },
+        "1": {
+          "name": "Chapter 2",
+            "0": {
+              "url": "https://firebasestorage.googleapis.com/v0/b/tecedu-bd07a.appspot.com/o/videoplayback-2.mp4?alt=media&token=a3d82fca-a62c-444d-9784-ee56f3620ab9",
+            "homework": false,
+            "type": "overview",
+            "name": "Chapter 2"
+            }
+        }
+      },
+      "English intermediate": {
+        "description": "English intermediate",
+        "0": {
+          "name": "Chapter 1",
+            "0": {
+              "url": "https://firebasestorage.googleapis.com/v0/b/tecedu-bd07a.appspot.com/o/videoplayback-3.mp4?alt=media&token=c9af2e6f-058a-4e1f-80dd-8bd78aee09a0",
+              "homework": false,
+              "type": "overview",
+              "name": "Chapter 1"
+            }
+        },
+        "1": {
+          "name": "Chapter 2",
+            "0": {
+            "url": "https://firebasestorage.googleapis.com/v0/b/tecedu-bd07a.appspot.com/o/videoplayback-4.mp4?alt=media&token=47b364b7-9f57-4a54-82c7-03260326760b",
+            "homework": false,
+            "type": "overview",
+            "name": "Chapter c2"
+            }
+        }
+      }
+    },
+    
+  "KZ": {
+      "Python": {
+        "description": "Lorem ipsum",
+        "0": {
+          "name": "Intro to course: Python",
+          "0": {
+            "type": "overview",
+            "url": "http://api.designcode.io/D+C%20Videos/08.%20ARKit/08.01.%20Intro%20to%20ARKit.mp4",
+            "name": "Overview Python's environment",
+            "homework": ["GOLD HOMEWORK", "SILVER HOMEWORK", "BRONZE HOMEWORK"]
+          }
+        },
+        "1": {
+          "name": "Intro to course: Python",
+          "0": {
+            "type": "overview",
+            "url": "http://api.designcode.io/D+C%20Videos/08.%20ARKit/08.01.%20Intro%20to%20ARKit.mp4",
+            "name": "Overview Python's environment",
+            "homework": ["GOLD HOMEWORK", "SILVER HOMEWORK", "BRONZE HOMEWORK"]
+          }
+        },
+        "2": {
+          "name": "Intro to course: Python",
+          "0": {
+            "type": "overview",
+            "url": "http://api.designcode.io/D+C%20Videos/08.%20ARKit/08.01.%20Intro%20to%20ARKit.mp4",
+            "name": "Overview Python's environment",
+            "homework": ["GOLD HOMEWORK", "SILVER HOMEWORK", "BRONZE HOMEWORK"]
+          }
+        },
+        "3": {
+          "name": "MALLLLL",
+          "0": {
+            "type": "BAL",
+            "url": "http://api.designcode.io/D+C%20Videos/08.%20ARKit/08.01.%20Intro%20to%20ARKit.mp4",
+            "name": "Overview Python's environment",
+            "homework": ["GOLD HOMEWORK", "SILVER HOMEWORK", "BRONZE HOMEWORK"]
+          },
+          "1": {
+            "type": "BAL 2",
+            "url": "http://api.designcode.io/D+C%20Videos/23.%20SVG%20and%20GreenSock%20Animations/23.01.%20Intro%20to%20SVG%20and%20GreenSock%20Animation.mp4",
+            "name": "VIDEO BLEAT",
+            "homework": ["GOLD HOMEWORK", "SILVER HOMEWORK", "BRONZE HOMEWORK"]
+          }
+        }
+      }
+   }
+  },
+
+	{
+    "Python": {
+      "headerImg": "./imgs/pyhton_header.png"
+    }
+  },
+
+
+  {
+    "KZ" : {
+      "Python" : {
+        "0" : {
+           "images" : {
+                "0": "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg"
+              },
+          "questions": ["Njnknfjdk ?","Njkfdnkfd ?","KJjkjkdjkfdjk?"],
+          "answers": [["Answer 1","Answer 2","Answer 3","Answer 4"],["Answer 1","Answer 2","Answer 3","Answer 4"],["Answer 1","Answer 2","Answer 3", "Answer 4"]],
+          "correct-answers": ["Answer 1","Answer 2","Answer 3"]
+        }
+      }
+    },
+    "RU" : {
+        "English elementary" :
+        {
+          "0": {
+            "questions": ["Where is not article?", "Did you ski last weekend?", "Are you ___ at the moon?", "I will ___ up at five tomorrow.", "How do you spell dog?", "Who do you usually go shopping with?", "How many hours a day do you sleep?", "What is your busiest day of the week?\n"],
+            "answers": [["a","an","the","hello"], ["Yes, I played on Saturday.", "Yes, I skied on Tuesday.", "Yes, I skied on Sunday.", "Yes, I played on Wednesday."], ["look", "looks", "looking", "looked"], ["gets", "get", "got", "getting"], ["Cat.", "No, I don't.", "D-O-G", "I have one dog."], ["By myself.", "Downtown.", "On Sunday.", "Two or three hours."], ["I slept 7 hours.", "I sleep 7 hours.", "I am sleeping 7 hours.", "I have slept 7 hours."], ["Tuesday.", "Every day.", "In the morning.", "Last week."]],
+            "images": {}, 
+            "correct-answers": ["hello", "Yes, I skied on Sunday.", "looking", "get", "D-O-G", "By myself.", "I sleep 7 hours.", "Tuesday."]
+          },
+          "1": {
+            "questions": ["Where is not article?", "Did you ski last weekend?", "Are you ___ at the moon?", "I will ___ up at five tomorrow.", "How do you spell dog?", "Who do you usually go shopping with?", "How many hours a day do you sleep?", "What is your busiest day of the week?\n"],
+            "answers": [["a","an","the","hello"], ["Yes, I played on Saturday.", "Yes, I skied on Tuesday.", "Yes, I skied on Sunday.", "Yes, I played on Wednesday."], ["look", "looks", "looking", "looked"], ["gets", "get", "got", "getting"], ["Cat.", "No, I don't.", "D-O-G", "I have one dog."], ["By myself.", "Downtown.", "On Sunday.", "Two or three hours."], ["I slept 7 hours.", "I sleep 7 hours.", "I am sleeping 7 hours.", "I have slept 7 hours."], ["Tuesday.", "Every day.", "In the morning.", "Last week."]],
+            "images": {},
+            "correct-answers": ["hello", "Yes, I skied on Sunday.", "looking", "get", "D-O-G", "By myself.", "I sleep 7 hours.", "Tuesday."]
+          }
+        },
+        "English intermediate" : {
+          "0": {
+            "questions": ["Where is not article?", "Did you ski last weekend?", "Are you ___ at the moon?", "I will ___ up at five tomorrow.", "How do you spell dog?", "Who do you usually go shopping with?", "How many hours a day do you sleep?", "What is your busiest day of the week?\n"],
+            "answers": [["a","an","the","hello"], ["Yes, I played on Saturday.", "Yes, I skied on Tuesday.", "Yes, I skied on Sunday.", "Yes, I played on Wednesday."], ["look", "looks", "looking", "looked"], ["gets", "get", "got", "getting"], ["Cat.", "No, I don't.", "D-O-G", "I have one dog."], ["By myself.", "Downtown.", "On Sunday.", "Two or three hours."], ["I slept 7 hours.", "I sleep 7 hours.", "I am sleeping 7 hours.", "I have slept 7 hours."], ["Tuesday.", "Every day.", "In the morning.", "Last week."]],
+            "images": {},
+            "correct-answers": ["hello", "Yes, I skied on Sunday.", "looking", "get", "D-O-G", "By myself.", "I sleep 7 hours.", "Tuesday."]
+          },
+          "1": {
+            "questions": ["Where is not article?", "Did you ski last weekend?", "Are you ___ at the moon?", "I will ___ up at five tomorrow.", "How do you spell dog?", "Who do you usually go shopping with?", "How many hours a day do you sleep?", "What is your busiest day of the week?\n"],
+            "answers": [["a","an","the","hello"], ["Yes, I played on Saturday.", "Yes, I skied on Tuesday.", "Yes, I skied on Sunday.", "Yes, I played on Wednesday."], ["look", "looks", "looking", "looked"], ["gets", "get", "got", "getting"], ["Cat.", "No, I don't.", "D-O-G", "I have one dog."], ["By myself.", "Downtown.", "On Sunday.", "Two or three hours."], ["I slept 7 hours.", "I sleep 7 hours.", "I am sleeping 7 hours.", "I have slept 7 hours."], ["Tuesday.", "Every day.", "In the morning.", "Last week."]],
+            "images": {},
+            "correct-answers": ["hello", "Yes, I skied on Sunday.", "looking", "get", "D-O-G", "By myself.", "I sleep 7 hours.", "Tuesday."]
+          }
+        },
+		"JavaScript" : {
+			"0":{
+				"questions":["Какой тег содержит код JavaScript?","Что такое npm?","Что такое NodeJS?","Что такое JSHint?","С помощью какой программы можно устанавливать библиотеки?"],
+				"answers":[["style","script","tilte","code"],["Менеджер пакетов","Язык программирования","Серверная технология","Програмное обеспечение"],["Менеджер пакетов","Язык программирования","Серверная технология","Програмное обеспечение"],["Язык программирования","Инструмент статического анализа кода","Серверная технология","Встроенная библиотека"],["Терминал/Командная строка","JSHint","Android Studio","Pods"]],
+				"correct-answers":["script","Менеджер пакетов","Серверная технология","Инструмент статического анализа кода","Терминал/Командная строка"],
+				"images":{"0":"https://cdn.shopify.com/s/files/1/0657/0459/products/Screen_Shot_2018-07-15_at_9.57.47_PM.png?v=1531707367","1":null,"2":null}
+			},
+			"3":{
+				  "questions":["Как правильно вывести на экран сообщение 'Hi!' после 5 секунд?","Выверите правильный синтаксис метода setInterval()","Для чего нужен ReadMe файл в GitHub?","Чем отличается функция-конструктор от обычной функций?","Какое ключевое слово нужно использовать для объявления класса?","Что выведет данный код?","Что такое 'this'?","Что выведет код: console.log(typeof({'name' : 'Maksat'}));?","Чем отличается фукнция call от обычной функций?","Что такое метод bind?","Чем отличаются методы call и apply?","Что выведет код 'console.log([0,1,2][4][2])'?","Чем отличается const от let?","Выберите правильный синтаксис функций","Как обозначается метод return в стрелочной функций??","Что выведет этот код?","Что выведет этот код?","Что такое class ?","Как правильно вызвать класс в JS?","Выберите метод который наследуется автоматический?","Что выведет этот код?","Как объединить два массива?"],
+				  "answers": [
+				    ["sleep(5); alert(\"Hi!\")","sleep(5000); alert(\"Hi!\")","setTimeout(function() {alert(\"Hi!\")}, 5000)","setTimeout(function() {alert(\"Hi!\")}, 5)"],
+				    ["setInterval(function() {}, time)","setInterval(time) {}","setInterval=(time)=>{}","Нет правильного ответа"],
+				    ["компиляция кода","описание репозитория","выявления ошибок","создания js-кода"],
+				    ["Функция-констуркторы могут возвращать какое-нибудь значение","Функция-констуркторы принимают параметры","Имя функции-конструктора должно начинаться с большой буквы","Нет правильного ответа"],
+				    ["func","Имя конструктора","new","class"],
+				    ["Максат","Ошибка","undefined","name"],
+				    ["Глобальное переменное","Экземпляр класса","Контекст вызова","Нет правильного ответа"],
+				    ["object","array","symbol","string"],
+				    ["Используется без параметров","Есть явно указанный \"this\"","Ничем не отличается","Нет правильного ответа"],
+				    ["Для создания контекста","Для зафиксирования контекста","Для добавления новых свойств","Для добавления новых методов"],    ["\"apply\" принимает массив аргументов вместо списка","call\" можно вызвать только один раз","Они полностью аналогичны","\"call\" принимает массив вместо списка"],
+				    ["Ошибка","method","object","function"],
+				    ["const предназначен только для чтения","let предназначен только для чтения","const можно только один раз применить","let можно только один раз применить"],
+				    ["function (a) {}","function = () {}","let func = (a) => {}","function(a) => {} "],
+				    ["this","=>","{}","Скобки"],
+				    ["undefined","12","9","14"],
+				    ["undefined","14","9","Ошибка"],
+				    
+				    ["Аналог функции","Экземпляр программы","Шаблон кода для вызова функции","Расширяемый шаблон кода для создания объектов"],    ["Вызвать как функция","Вызвать через \"new\"","Вызвать через \"class\"","Нет правильного ответа"],
+				   ["onclick","constructor","super","extends"],
+				   ["40","4","10","undefined"],
+				   ["let array = array1.push(array2)","let array = array1.concat(array2)","let array = [array1, array2]","let array = [...array1, ...array2]"]],
+				  "correct-answers":["setTimeout(function() {alert(\"Hi!\")}, 5000)","setInterval(function() {}, time)","описание репозитория","Имя функции-конструктора должно начинаться с большой буквы","new","Максат","Контекст вызова","object","Есть явно указанный \"this\"","Для зафиксирования контекста","\"apply\" принимает массив аргументов вместо списка","Ошибка","const предназначен только для чтения","let func = (a) => {}","=>","12","14","Расширяемый шаблон кода для создания объектов","Вызвать через \"new\"","constructor","40","let array = [...array1, ...array2]"],
+				  "images":{"5":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-22%20%D0%B2%2014.56.04.png?alt=media&token=5905bcd9-48d7-411c-bb7f-26aeb3dbb47e","16":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-22%20%D0%B2%2016.10.28.png?alt=media&token=4d1a7d47-3571-42d1-a48a-d06575415d28","15":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-22%20%D0%B2%2015.41.47.png?alt=media&token=ee3e61ca-8202-4dae-afbe-45e3a1c8bac0","20":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-22%20%D0%B2%2016.10.28.png?alt=media&token=4d1a7d47-3571-42d1-a48a-d06575415d28","22":null}
+				  },
+			"1":{
+				"questions":["С помощью какого атрибута вызвается js код?","С помощью какого метода можно получить тип данных переменной","С помошью какого метода можно выводить сообщения в консоль","Назовите сайт для опубликования кода?","Что выведет этот код?","Для чего используются инкременты и декременты?","Сколько элементов 'case' можно использовать внутри оператора 'switch'?","Что выведет этот код?","Что выведет этот код?","Как найти длину массива?","Что делает метод 'concat'?","Какой тип данных принимают операторы условия?","Сколько раз будет выполняться цикл While без параметра","Что мы должны сделать для объявления параметра?","Сколько параметров может быть внутри функции 'alert'?","В диалоговом окне 'confirm', кнопка «ОК» возвращает ...","Какой символ используется для отделения параметров друг от друга?","Сколько раз можно вызывать объявленную функцию?","Какое ключевое слово используется для создания экземпляра объекта?","Выберите метод, которого нет у массива","Где можно посмотреть код страницы сайта?","Каков результат использования оператора модуля для 103 % 5?","Выберите правильный объект","Как правильно удалить элемент с объекта?","Чтобы использовать свойства объекта внутри функции, используйте:"],
+				"answers":[["title","type","name","src"],["var","script","typeof","includes"],["print","console.log","Writeline","System.out.print"],["GitHub","Wikipedia","w3schools","stackoverflow"],["You are kid","You are adult","You are teenager","Ошибка!"],["для сложения/вычитание 1 из числа","для нахождения остатка","для солжения двух чисел","Они не используются в js"],["Только 1","2","Не больше 5","Столько, сколько условии"],["2","3","4","5"],["6","5","12","18"],["Через свойство length","Через свойство count","Через свойство items.count","С помощью специальный функции"],["Объединяет два массива","Удаляет элементы с массива","Добавляет другие переменные","Сортирует массив"],["Integer","Boolean","String","Symbol"],["Бесконечно","0","1","5"],["Использовать ключевые слова \"var\" и \"param\"","Использовать ключевое слово \"var\"","Использовать ключевое слово \"param\"","Написать имя переменной в скобках"],["1","2","3","Бесконечно"],["Ложь","Истину","null","undefined"],[".",";",",",":"],["0","1","2","Бесконечно"],["create","object","var","new"],["getValues()","concat()","fill()","push()"],["Консоль разработчика","Wikipedia","NodeJS","В настроках браузера"],["4","0","3","5"],["var object = []","var object","var object = {}","var object = Symbol()"],["object.remove(key)","delete object.key","object.slice(key, 1)","object.key = delete"],["Ключевое слово this","Ключевое слово var","Имя функции","Имя программы"]],
+				"correct-answers":["type","script","print","Wikipedia","You are adult","для солжения двух чисел","2","2","12","Через свойство length","Объединяет два массива","Boolean","Бесконечно", "Написать имя переменной в скобках","Бесконечно","Истину",",","Бесконечно","new","getValues","Консоль разработчика","3","var object = {}","delete object.key", "Ключевое слово this"],
+				"images":{"0":null,"1":null,"2":null,"3":null,"4":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-21%20%D0%B2%2017.17.16.png?alt=media&token=d8bd4e8d-c792-4363-862c-63e83c8de91b","5":null,"6":null,"7":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-21%20%D0%B2%2017.53.36.png?alt=media&token=444d89c1-546b-49be-a2e5-a254166307eb","8":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-21%20%D0%B2%2017.57.49.png?alt=media&token=6de98ae4-8ab5-4b6d-ae82-206a99000d05","9":null,"10":null,"11":null,"12":null,"13":null,"14":null,"15":null,"16":null,"17":null,"18":null,"19":null,"20":null,"21":null,"22":null,"23":null,"24":null}},
+		    "2":{
+		    	  "questions":["Как добавить обработчик click для элемента div?","Какой вид типизации используется в JavaScript?","С помощью какого метода можно получить элементы со страницы?","slice является методом ... ?","С помощью какого атрибута 'style' можно округлить элементы?","Как можно удалить 'div' с элемента 'body'?","Через какой атрибут можно редактировать внутренние элементы 'div'?","Что можно использовать для отладки кода?","Что выведет код: console.log(typeof(String(4)));?","Для чего нужен свойство prototype?","В какой вкладке консоля разработчика можно редактировать код?"],
+  				  "answers": [["click(div)","div.clicked","div.click","div.onclick"],["Динамическая сильная","Динамическая слабая","Динамическая средняя","Нет правильного ответ"],["takeElement()","byIdGet()","getElementsById()","get()"],["Number", "Array", "Object","Нет правильного ответа"],["corner-radius", "borderRadius", "cornerRadius","border-radius"],["remove()","removeChild()","removeChildren()", "delete"],["html","innerHTML","bodyOfDiv", "div"],["Warn","Breakpoints","Alert","Notification"],["string","char","integer","number"],["Посмотреть все методы объекта","Посмотреть все функций объекта","Посмотреть все свойства объекта","Нет правильного ответа"], ["Sources","Console","Code","Network"]],
+  				  "correct-answers": ["div.onclick","Динамическая сильная","getElementsById()","Array","borderRadius","removeChild()","innerHTML","Breakpoints","string","Посмотреть все свойства объекта","Sources"],
+  				  "images":{}
+				},
+		   	"4":{
+		   		"questions":["Как расшифруется слово 'JSON'?","Что такое JSON?","Как декодировать JSON?","Как конвертировать JSON в string?","Что такое 'Ajax'?","Что такое 'XMLHttpRequest'?","Как правильно вызвать 'XMLHttpRequest'?","... - состояние AJAX-запроса, когда объъект был создан, но open() еще не вызвался","Выберите событие для 'XMLHttpRequest()'","Как взять статус AJAX-запроса?","Что такое Promise?","Выберите состояния Promise","Выберите правильный синтаксис 'Promise'?","Как очистить 'localStorage'?","Что должен вывести этот код?","Как правильно импортировать модуль 'component' с './script'?","Как сохранить данные в 'localStorage'?"],
+		   		"answers":[["JavaScript Oriented Notation","JavaScript Object Notion","JavaScript Oriented Notion","JavaScript Object Notation"],["Библиотека","Фреймворк","Формат данных","Синтаксис"],["JSON.decode()","JSON.parse()","JSON.take()","JSON.get()"],["JSON.stringify()","JSON.string()","JSON.getString()","JSON.give()"],["Запросы для обмена данными с сервером","Технология для передачи файлов в сервер","Библиотека для декодирование JSON","Нет правильного ответа"],["Библиотека для передачи данных","API для обмена данными","Формат данных","Серверная технология"],["let request = XMLHttpRequest()","let request = XMLHttpRequest","let request = new XMLHttpRequest()","let request = XMLHttpRequest()"],["NOT_OPENED","UNSENT","HEADERS_RECEIVED","LOADING"],["readystatechange","statechanged","onready","onreadychanged"],["request.status","request.getStatus()","request.status()","request.mainStatus"],["Функция для API-запросов","Метод для извлечения JSON","Объект, который содержит своё состояние","Нет правильного ответа"],["Waiting,Rejected,Finished","Loading, Error, Fulfilled","Getting, Error, Finished","Pending,Rejected,Fulfilled"],["let promise = Promise(function(resolve, reject) {})","let promise = new Promise(function(resolve, reject) {})","let promise = Promise(resolve, reject) {}","let promise = new Promise(resolve, reject) {}"],["localStorage.removeAll()","localStorage.data = null","localStorage.clear()","localStorage = null"],["Ошибка","Hello","null","undefined"],["imoprt: \"./script/component\"","import \"./script\"","comopnent from \"./script\";","import comopnent from \"./script\";"],["localStorage.setItem(key, value)","localStorage.set(key, value)","localStorage.setItem(value, key)","localStorage.set(value, key)"]],
+		   		"correct-answers":["JavaScript Object Notation","Формат данных","JSON.parse()","JSON.stringify()","Запросы для обмена данными с сервером","Библиотека для передачи данных","let request = new XMLHttpRequest()","UNSENT","readystatechange","request.status","Объект, который содержит своё состояние","Pending,Rejected,Fulfilled","let promise = new Promise(resolve, reject) {}","localStorage.clear()","Hello","import comopnent from \"./script\";","localStorage.setItem(key, value)"],
+		   		"images":{"0":null,"1":null,"2":null,"3":null,"4":null,"5":null,"6":null,"7":null,"8":null,"9":null,"10":null,"11":null,"12":null,"13":null,"14":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-22%20%D0%B2%2017.43.56.png?alt=media&token=7a01e856-7048-4692-97a6-df0d3c29af46","15":null,"16":null}}},
+      	"C#" : {"0":{"questions":["Что выведет данный код?","Для чего нужен метод clear?","К какому типу относится int?","Какое число присвоенo к переменной в данном коде?"],"answers":[["Hello world","Привет мир","Console","Writeline"],["Удалить одну строку","Очистить полностью консоль","Изменить код","Все ответы не верны"],["Символы Юникода","Логическое значение","Целочисленный со знаком","Целочисленный без знака"],["Number","1","-1","5"]],"correct-answers":["Hello world","Очистить полностью консоль","Целочисленный со знаком","5"],"images":{"0":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F1.png?alt=media&token=a2c237b9-6cf5-450c-a5bc-59349d45b74a","1":null,"2":null,"3":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F2.png?alt=media&token=fa17f674-dff7-444d-b615-6bbf033dbb92"}},"1":{"questions":["Можно ли назвать int int?","Что выведет данный код?","Какая разница между ReadLine и WriteLine?","Сколько значений может быть в типе bool?","Поименованная, либо адресуемая иным способом область памяти, адрес которой можно использовать для осуществления доступа к данным?"],"answers":[["Зависит от кода","Однозначно да","Нет","Нет правильного ответа"],["Word","5","Console","()"],["ReadLine для ввода, а WriteLine для вывода значений","Различии нет","Только в названий","Нет правильного ответа"],["3","8","2","Зависит от кода"],["Константа","Переменная","Контейнер","Массив"]],"correct-answers":["Нет","5","ReadLine для ввода, а WriteLine для вывода значений","2","Переменная"],"images":{"0":null,"1":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F3.png?alt=media&token=dddb2bc7-5a34-44f3-a849-d9262ef17071","2":null,"3":null,"4":null}},"2":{"questions":["Чем отличается Console.WriteLine от Console.Write?","Что выводит данный код?","Что такое таблица ASCII?","Что будет находиться в переменной name?","Обозночения оператора НЕ","Обозночения оператора И","Обозночения оператора ИЛИ","Что делает данный код?","Какой результат даст данный код?","Какой оператор сравнения вы бы использовали, чтобы проверить, не равны ли две переменные?","Что делает данная строка кода?"],"answers":[["Console.WriteLine() выводит текст, что в круглых скобках, на консоль и переносит строку. Console.Write() выводит текст, что в круглых скобках, на консоль без переноса строки.","Разницы нет","Нет правильного ответа","Все ответы верны"],["Age","Возраст, который вы ввели вместе с предложением","Число которое вы ввели","I am"],["Таблица, в которой некоторым распространённым печатным и непечатным символам сопоставлены числовые коды","таблица с цифрами","таблица с буквами","все ответы верный"],["Arthur","NULL","Vasya","String"],["!","Not","No","!="],["Все выше перечисленные","&","and","&&"],["1","||","Or","!="],["Увеличивает и уменьшает переменную на 1","Выводит на экран 5","Минусует 1 от 5","Нет правильного ответа"],["Не истинный","Истинный","Все ответы верны","Нет правильного ответа"],["!=*","==","!",">="],["Объединяет две строки \"Black\" и \" Coffe\"","Суммирует две переменные","Умнoжает строки на друг-друга","Нет правильного ответа"]],"correct-answers":["Разницы нет","Возраст, который вы ввели вместе с предложением","Таблица, в которой некоторым распространённым печатным и непечатным символам сопоставлены числовые коды","Arthur","!","&&","||","Увеличивает и уменьшает переменную на 1","Все ответы верны","==","Объединяет две строки \"Black\" и \" Coffe\""],"images":{"0":null,"1":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F6.png?alt=media&token=2cca4025-04b9-4fd0-a14a-d325d6fc1371","2":null,"3":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F7.png?alt=media&token=a1dba77b-fae5-4adc-8d37-0473bb7ef5cf","4":null,"5":null,"6":null,"7":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F8.png?alt=media&token=8b966e43-55bf-4e81-975b-18c7f2edafe3","8":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F9.png?alt=media&token=fb77233b-85ec-40a3-985d-3b63586159bf","9":null,"10":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F10.png?alt=media&token=1bd3f89d-45fa-4a73-bf82-4a97ef2fc65e"}},"3":{"questions":["Для чего нужны массивы в C#?","Для чего нужен метод gettype?","Что является переменным в данном коде?","Что делает данный код?"],"answers":[["Для объединения связанных вместе переменных","Для удаления данных","Для созданий новых переменных","Все ответы верны"],["Чтобы вывести значение в экрна","Суммировать значения","Для определения типа переменного","Нет правильного ответа"],["Coffe","String","NaN","coffeMug"],["Выводит на экран следующее число после rng","Выводит абсолютно рандомное число","0","1"]],"correct-answers":["Для объединения связанных вместе переменных","Для определения типа переменного","coffeMug","Выводит абсолютно рандомное число"],"images":{"0":null,"1":null,"2":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F4.png?alt=media&token=c678c11e-e060-48c6-b463-e072c42a3471","3":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F5.png?alt=media&token=e5162add-3f4d-44bb-b76b-bb09fa90ddcb"}},"4":{"questions":["Можете ли вы иметь условный оператор if без блока кода else?","В чем разница между if/else if/else and switch?"],"answers":[["Да","Нет","Зависит от кода","Нет правильного ответа"],["Нет абсолютно никакого отличия","Отличия только в ключевых словах","Этот переключатель сравнивает одну заданную переменную со многими различными случаями. в то время как if / else if может сравнивать много разных случаев, которые не связаны одной и той же переменной.","Нет правильного ответа"]],"correct-answers":["Да","Этот переключатель сравнивает одну заданную переменную со многими различными случаями. в то время как if / else if может сравнивать много разных случаев, которые не связаны одной и той же переменной."],"images":{"0":null,"1":null}},"5":{"questions":["Что делает цикл?","Какой оператор возвращает значение из метода?","В чем разница между циклом While и Do-While?","Для чего в основном используется цикл for?"],"answers":[["Ставит условия в коде","Организует многократное исполнение набора инструкций","Используется для того, чтобы очистить строку кода","Нет правильного ответа"],["return","veni","end","out"],["Нет разницы","Разница в том, что цикл While всегда будет выполняться хотя бы один раз независимо от условия, а Do-While не будет","Разница в том, что цикл Do-While всегда будет выполняться хотя бы один раз независимо от условия, а While не будет","Нет правильного ответа"],["Цикл for последовательно выполняет одинаковые действия, определенное количество раз.","Обнуляет переменные при их создании","Код будет выполняться до тех пор, даже если пользователь завершит работу программы","Нет правильного ответа"]],"correct-answers":["Нет правильного ответа","return","Разница в том, что цикл Do-While всегда будет выполняться хотя бы один раз независимо от условия, а While не будет","Нет правильного ответа"],"images":{"0":null,"1":null,"2":null,"3":null}},"6":{"questions":["Что будет выведено на консоль?","Что будет выведено на консоль?","Структура — это …","Какой способ вызова исключения является корректным?"],"answers":[["5","5.5","6","Возникнет ошибка"],["EnumValue","Names","Enum","Value"],["Значимый тип","Ссылочный тип","Пользовательский тип","Нет правильного ответа"],["throw new Exception();","throw Exception();","call Exception();","Exception();"]],"correct-answers":["5","Names","Значимый тип","throw new Exception();"],"images":{"0":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F11.png?alt=media&token=325dd6ec-a792-4971-8b2d-930f662d10a4","1":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F12.png?alt=media&token=02fdd81f-f0f9-4cd2-82b4-cffe595eb7c7","2":null,"3":null}},"7":{"questions":["Что будет содержать массив models после выполнения данного фрагмента кода?","Какие бывают массивы?","Когда вы должны использовать список вместо массива?","Какой код правильно инициирует список строк?","Структура данных, хранящая набор значений пронумерованные с индексами начиная от 0?"],"answers":[["Возникнет ошибка","1, 100, \"300\", \"5\"","1, \"300\", 100, \"5\"","1, \"5\", 100, \"300\""],["Разнообразные","Сложные и простые","Одномерные и многомерные","Резиновые и статичные"],["Это не имеет значения, они похожи","Я должен использовать список всякий раз, когда мне нужна коллекция, которая должна изменить свой размер","я должен использовать массив всякий раз, когда мне нужна коллекция, которая должна изменить свой размер","Нет правильного ответа"],["List<string> list = new List<string>();","List<string> list = new List<string>;","List<string> list = new List<10>();","List<string>() list = new List<string>;"],["Массив","list","tuple","set"]],"correct-answers":["Возникнет ошибка","Одномерные и многомерные","Я должен использовать список всякий раз, когда мне нужна коллекция, которая должна изменить свой размер","List<string> list = new List<string>();","Массив"],"images":{"0":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F13.png?alt=media&token=40fdd149-00c0-4aac-83b6-5498379af279","1":null,"2":null,"3":null,"4":null}},"8":{"questions":["Как правильно инициировать двумерный целочисленный массив с 4 строками и 7 столбцами?","Правильно ли заполнен двумерный массив?","Есть ли в этом коде ошибка?","Что делает модификатор sealed?","Какой массив называется многомерным?"],"answers":[["Int[,] array = new int[4, 7];","Int[4, 7] array = new int[, ];","Int[] array = new int[4, 7];","Нет правильного ответа"],["Нет правильного ответа","Да","Нет","Все зависит от предыдущих строк кода"],["Да, потому что row не может быть равен 0","Да, потому что цикл неправильно составлен","Нет","Да, потому что вместо int должен был быть boolean"],["Разрешает наследование только один раз","Ограничивает видимость текущей сборкой","Добавляется просто для наглядности, но ничего не изменяет","Запрещает наследование"],["Тот в котором можно хранить созданные листы","Тот в котором можно хранить как переменные, так и константы","Который отличается двумя или более измерениями","В котором можно хранить данные разных типов"]],"correct-answers":["Int[,] array = new int[4, 7];","Да","Нет","Запрещает наследование","Который отличается двумя или более измерениями"],"images":{"0":null,"1":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F14.png?alt=media&token=b6cff1e9-40ee-4664-aa72-a6ec2368ccd6","2":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F15.png?alt=media&token=27293fda-a7b3-4e8a-afa4-06eddcd4eb60","3":null,"4":null}},"9":{"questions":["Должны ли методы выполнять более одной задачи, true или false?","Есть ли разница и что это между пустыми методами и методами возврата?","Что такое перегрузки?","C# код компилируется в код …"],"answers":[["True","False","Все ответы верны","Нет правильного ответа"],["Методы Void могут дополнительно возвращать значение при выполнении своей задачи, в то время как методы Return всегда должны возвращать значение указанного типа данных","Методы Void не могут возвращать значение при выполнении своей задачи, в то время как методы Return всегда должны возвращать значение указанного типа данных","Пустота и методы возврата может и при необходимости возвращать значение, когда они выполняют свою задачу","Нет правильного ответа"],["Перегрузка позволяет создать несколько методов с одинаковым именем, но они могут иметь разные реализации","Перегрузка позволяет создать более одного метода с тем же именем, но он может иметь разные реализации, и вы должны использовать ключевое слово \"перегрузка\" при создании метода","Перегрузка позволяет создать несколько методов с одинаковым именем, и все методы перегрузки должны иметь разное количество и/или типы аргументов","Нет правильного ответа"],["CIL","MASM","CLI","FCL"]],"correct-answers":["False","Методы Void не могут возвращать значение при выполнении своей задачи, в то время как методы Return всегда должны возвращать значение указанного типа данных","Перегрузка позволяет создать несколько методов с одинаковым именем, и все методы перегрузки должны иметь разное количество и/или типы аргументов","CIL"],"images":{"0":null,"1":null,"2":null,"3":null}},"10":{"questions":["Что делает оператор «%»?","Чему будет равен с, если int a=10; int b=4; int c= a%b?","Что такое константа ?","Верно ли, что тип string хранит набор символов Unicode?","Для преобразования текста в целое число используется функция"],"answers":[["Возвращает остаток от деления","Нет правильного ответа","Возвращает тригонометрическую функцию","Возвращает процент от суммы"],["1","3","11","2"],["Переменная типа string","Переменная которая может быть изменена в любое время","Глобальная переменная","Переменная значение которой нельзя изменить"],["Да","Нет","Возникнет ошибка","NaN"],["Int32.Convert();","Convert.ToInt16();","Int16.ToStr()","String.ToInt32()"]],"correct-answers":["Возвращает остаток от деления","2","Переменная значение которой нельзя изменить","Да","Convert.ToInt16();"],"images":{"0":null,"1":null,"2":null,"3":null,"4":null}},"11":{"questions":["Чему будет равен с, если int a = 10; int b = 4; bool c = (a == 10 && b == 4)?","Что представляет собой класс Directory?","Что делает метод CreateDirectory(path)?","Что делает метод Delete(path)?","Что делает метод GetDirectories(path)?","Что делает класс DirectoryInfo?","Для чего нужен метод MoveTo(destDirName)?"],"answers":[["14","Null","False","True"],["функциональность для создания, удаления, перемещения и других операций с каталогами","Нет правильного ответа","Указывает путь файла в коде","Класс Directory предоставляет ряд статических методов для управления каталогами"],["создает каталог по указанному пути path","удаляет каталог по указанному пути path","получает список каталогов в каталоге path","получает список файлов в каталоге path"],["создает каталог по указанному пути path","удаляет каталог по указанному пути path","получает список каталогов в каталоге path","получает список файлов в каталоге path"],["получает список файлов в каталоге path","перемещает каталог","получает список каталогов в каталоге path","получение родительского каталога"],["Данный класс способен показывать директорию чужих файлов","Данный класс может показать директорию файла","Данный класс может изменить изначальную директорию файла","Данный класс предоставляет функциональность для создания, удаления, перемещения и других операций с каталогами."],["перемещает каталог","перемещает файл","перемещает переменную","загружает библиотеки"]],"correct-answers":["True","Класс Directory предоставляет ряд статических методов для управления каталогами","создает каталог по указанному пути path","удаляет каталог по указанному пути path","получает список каталогов в каталоге path","Данный класс способен показывать директорию чужих файлов","перемещает каталог"],"images":{"0":null,"1":null,"2":null,"3":null,"4":null,"5":null,"6":null}},"12":{"questions":["Как указать строку формата для выражения интерполяции?","Какое из этих кодов задает выравнивание?","Какой знак идентифицирует строковый литерал как интерполированную строку?","Что будет выведено на консоль?"],"answers":[["{<interpolationExpression>:<formatString>}","{<interpolationExpression><formatString>}","{<interpolation>:<formatString>}","{<interpolationExpression>:}"],["{<interpolationExpression>,<alignment>:}","{<interpolationExpression><alignment>:<formatString>}","{<interpolationExpression>,<alignment><formatString>}","{<interpolationExpression>,<alignment>:<formatString>}"],["#","||","Знак доллора","—"],["-1","Возникнет ошибка","1","-6"]],"correct-answers":["{<interpolationExpression>:<formatString>}","{<interpolationExpression>,<alignment>:<formatString>}","Знак доллора","-6"],"images":{"0":null,"1":null,"2":null,"3":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F16.png?alt=media&token=a8369e59-56cf-4e2a-beb4-536a43112f31"}},"13":{"questions":["Для чего нужны функции обработки исключений в языке С#?","Когда выдается ArgumentException?","Когда выдается ArgumentNullException?","Когда выдается ArgumentOutOfRangeException?"],"answers":[["Помогают вам справиться с непредвиденными или исключительными проблемами, которые возникают при выполнении программы","помогают вам справиться с предвиденными проблемами, которые возникают при выполнении программы","усложняют задачу исправления с непредвиденными или исключительными проблемами, которые возникают при выполнении программы","Нет правильного ответа"],["Он выдается при выполнении арифметических операций, приведения или преобразования.","Выдается, когда метод требует аргумент, но аргумент не предоставляется.","Он выбрасывается при выполнении арифметических операций, приведения или преобразования.","Выдается, когда в метод предоставлен неверный аргумент."],["Он выдается, когда в метод предоставлен неверный аргумент","Выдается, когда метод требует аргумент, но аргумент не предоставляется","Он выбрасывается при выполнении арифметических операций, приведения или преобразования","Выдается, когда значение аргумента выходит за пределы допустимого диапазона"],["Он выдается, когда в метод предоставлен неверный аргумент.","Выдается, когда метод требует аргумент, но аргумент не предоставляется.","Выдается, когда значение аргумента выходит за пределы допустимого диапазона.","Он выбрасывается при выполнении арифметических операций, приведения или преобразования."]],"correct-answers":["Помогают вам справиться с непредвиденными или исключительными проблемами, которые возникают при выполнении программы","Выдается, когда в метод предоставлен неверный аргумент.","Выдается, когда метод требует аргумент, но аргумент не предоставляется","Выдается, когда значение аргумента выходит за пределы допустимого диапазона."],"images":{"0":null,"1":null,"2":null,"3":null}},"14":{"questions":["Что такое ООП?","Можно ли наследоваться от нескольких интерфейсов?","Можно ли сделать перегрузку оператора присваивания?","Что будет выведено на консоль?","Какое ключевое слово ссылается на текущий экземпляр класса?","В чем особенность статического класса?","Название ключевого слово который позволяет специфицировать набор допустимых значений, и назначить каждому понятное имя, это…","Какое ключевое слово используется для объявления переменной-члена константой, но позволяет вычислять значение во время выполнения?","После определения, значение не может быть изменено. Что это такое?"],"answers":[["методология программирования, основанная на представлении программы в виде совокупности объектов, каждый из которых является экземпляром определённого класса","Язык программирования","Метод программирования","Нет правильного ответа"],["Да","Нет","Зависит от кода","Зависит от значений"],["Нет","Возникнет ошибка","Нет правильного ответа","Да"],["\"Text\"","\"test\"","Возникнет ошибка","String.Empty"],["params","this","catch","default"],["Может подключать специальные библиотеки","При выводе полученные данные не могут изменится","Он не может быть создан и может содержать только статические элементы.","Он позволяет создать константы вместо переменных"],["checked","decimal","implicit","Enumeration"],["read-write","readonly","const","writeonly"],["readonly","const","readwrite","tuple"]],"correct-answers":["методология программирования, основанная на представлении программы в виде совокупности объектов, каждый из которых является экземпляром определённого класса","Да","Нет","Возникнет ошибка","this","Он не может быть создан и может содержать только статические элементы.","decimal","readonly"],"images":{"0":null,"1":null,"2":null,"3":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/C%23%20test%2F17.png?alt=media&token=3ae0d254-5aaa-4d56-b1a9-549aa1ede90c","4":null,"5":null,"6":null,"7":null}},"15":{"questions":["Что вернет функция Termin после выполения. Код:int Termin(){int a = 1;int b = 3;if (a != 5) return a + b;else return 0;}","Как называется оператор «?:»?","Выбери правильное описание оператора «?:»","Какой тип переменной используется в коде: int a = 5;"],"answers":[["4","3","5","0"],["Прямой оператор","Тернарный оператор","Вопросительный","Территориальный оператор"],["Указатель на переменную","Возвращает адрес переменной","Условное выражение","Определяет, имеет ли объект определенный тип"],["Знаковое 8-бит целое","Знаковое 64-бит целое","Знаковое 32-бит целое","1 байт"],["Человек","Human","Dog","Mouse"]],"correct-answers":["4","Тернарный оператор","Условное выражение","Знаковое 32-бит целое"],"images":{"0":null,"1":null,"2":null,"3":null}}} 
+    }
+  },
+  
+  {
+    "KZ": {
+      "Python": {
+        "questions": [
+                "Njnknfjdk ?",
+                "Njkfdnkfd ?",
+                "KJjkjkdjkfdjk?"
+              ],
+        "images" : {
+            "0": "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg"
+          },
+          "answers": [
+                [
+                  "Answer 1",
+                  "Answer 2",
+                  "Answer 3",
+                  "Answer 4"
+                ],
+                [
+                  "Answer 1",
+                  "Answer 2",
+                  "Answer 3",
+                  "Answer 4"
+                ],
+                [
+                  "Answer 1",
+                  "Answer 2",
+                  "Answer 3",
+                  "Answer 4"
+                ]
+              ],
+          "correct-answers": [
+                "Answer 1",
+                "Answer 2",
+                "Answer 3"
+              ]
+      }
+    },
+    "RU": {
+      "Добыча нефти с поверхности земли": {
+        "questions": ["Контрольный вопрос"],
+          "images" : {
+
+          },
+          "answers": [["a","b","c","d"]],
+          "correct-answers": [
+                    "a"]
+	     },
+       "Добыча нефти с поверхности воды": {
+        "questions": ["Контрольный вопрос"],
+          "images" : {
+
+          },
+          "answers": [["a","b","c","d"]],
+          "correct-answers": ["a"]
+       },
+      "JavaScript" : {
+          "questions": [
+            "В каком месте HTML документа может располагаться JavaScript код?","Выберите JavaScript команду позволяющую вывести текст на страницу.","Выберите перечень содержащий только действительно существующие в JavaScript циклы",
+            "Выберите метод для выполнения произвольного кода через через заданные промежутки времени","Что вернет команда document.getElementById('hero')","Что выведет код: console.log(typeof 'number')","В какой кодировке XmlHttpRequest отправляется на сервер?",
+            "Что делает строчка 'use strict' в верхней части блока кода?","Какой вариант правильно объявляют переменную для k, возвращающей сумму двух аргументов?","Какой оператор используется для удаления элемента с объекта?",
+            "Какое ключевое слово используется для ссылки на текущий объект?","Как правильно сохранить данные в локальной хранилище?","Выберите недопустимое имя для переменной","Что выведет этот код?","JavaScript - это ... язык",
+            "Какой символ используется для разделения каждой пары JSON?","В какой тип данных переходит JSON внутри JavaScript кода?","Могут ли конструкторы в JavaScript вернуть примитивное значение?","К какому типу данных относиться NaN?","На что ссылается ключевое слово this в функции класса?",
+            "Какое свойство используется для проверки выполнения запроса AJAX?","Что выведет этот код?","Как правильно экспортировать модуль в ES6?","Что выведется в консоль?","С помощью какого ключевого слова можно расширить класс в ES6?",
+            "Что такое callback-функция?","Какой оператор служит для создания нового экземпляра из класса однотипных объектов?","Что такое ECMAScript?","Какое свойство, из ниже перечисленных, позволяет получить число элементов массива?",
+            "Какими способами можно получить доступ к свойству объекта?","Что такое метод объекта","Выберите среди перечисленных метод, с помощью которого можно добавить элемент в документ:","Что такое JSHint?",
+            "Что из следующего является компонентом веб-страницы?","JavaScript файлы имеют суффикс ...","Как можно отлаживать код, написанный на js?","Какую команду следует использовать, чтобы выбрать элемент с id 'qazcode' в DOM","Какая команда используется для показа всплывающего окна с вопросом?",
+            "Как правильно объявить массив?","Как правильно объединить два массива с помощью spread-операторов?"
+          ],
+          "answers": [
+            ["В \"<body>\"","В \"<head>\"","В \"<body>\" и \"<head>\"","В \"<title>\""],["write('How are you?')","document.write('How are you?')","document.out('How are you?')","text('How are you?')"],["while, forEach, loop","loop, switch, do","try, catch, for","for, while, do..while"],
+            ["setTimeout","setInterval","Timeout","afterInterval"],["Все элементы с id 'hero'", "Один элемент с id 'hero'", "Ничего", "Ошибка"],["number","string","float","Symbol"],["В кодировке страницы","В той, какую захочет получить сервер","В той, какую укажем в заголовке запроса","UTF-8"],
+            ["Отображает комментарий","Скрывает ошибки","Включает строгий режим","Показывает подсказки при отладке"],["var k=function(a,b){ return a+b }","var k = new Function('a,b', 'return a+b')"," var k = new Func('a,b', 'return a+b')"," var k = ('a,b', 'return a+b')"],
+            ["clear","slice","remove","delete"],["current","this","obj","it"],["localStorage.setItem(key, value)","localStorage.setItem(value, key)","localStorage.set(value, key)","localStorage.set(key, value)"],["var _qazcode","var 1qazcode","var qazcode","var QazCode"],
+            ["12","null","undefined","5"],["высокоуровный","объектно-ориентированный","статический","динамический"],[";",":",",","."],["Array","Number","Map","Object"],["Да","Нет","Только внутри функции","Только внутри констурктора"],["string","number","undefined","null"],["На объект, функцией которого является метод класса","На фукнцию класса","К классу","Нет правильно ответа"],
+            ["request","ReadyState","response","state"],["Qazcode = Hi!","Some error has occured","Ошибка","undefined"],["export default module ModulName","export ModuleName","export module ModuleName","export default ModuleName"],["123","456","Объект","key"],["expand","creates","extends","implements"],
+            ["Функция обратного вызова","Функция с параметрами","Функция с методом return","Нет правильно ответа"],["new","prototype","object","this"],["Спецификация javascript","Технология для обмена данными с сервером","Библиотека","Встраиваемый расширяемый язык программирования"],
+            ["count","length","array","number"],["Только через точку","Через точку или квадратные скобки","Фигурные скобки","Через запятую"],["Свойства объекта, в виде функции","Свойства объекта, в виде события","У объекта нет методов","Нет правильного ответа"],
+            ["addElement","createElement","insertElement","appendChild"],["Язык программирования","Инструмент статического анализа кода","Серверная технология", "Встроенная библиотека"],["Style","Div","Анимация","Все"],[".json",".javascript",".js",".html"],
+            ["Использовать комментарий","Выводить в консоль","Перезапустить компьютер","Установить библиотеки"],["document.getElementById('qazcode')","select('#qazcode')","document.get('qazcode')","document['qazcode']"],["concat","alert","show","prompt"],["var colors = (1:'red',2:'green',3:'blue')","var colors = 'red,green,blue'","var colors = ('red'),('green'),('blue')","var colors = ['red','green','blue']"],
+            ["let array = array1.push(array2)","let array = array1.concat(array2)","let array = [array1, array2]","let array = [...array1, ...array2]"]
+
+          ],
+          "correct-answers": [
+            "В \"<body>\" и \"<head>\"","document.write('How are you?')","for, while, do..while","setTimeout","Все элементы с id 'hero'","string","UTF-8","Включает строгий режим","var k=function(a,b){ return a+b }","delete",
+            "this","localStorage.setItem(key, value)","var 1qazcode","12","объектно-ориентированный",";","Object","Нет","number","На объект, функцией которого является метод класса","ReadyState","Some error has occured","export default ModuleName","456","extends",
+            "Функция обратного вызова","new","Встраиваемый расширяемый язык программирования","length","Через точку или квадратные скобки","Свойства объекта, в виде функции","appendChild","Инструмент статического анализа кода","Все",".js","Выводить в консоль",
+            "document.getElementById('qazcode')","prompt","var colors = ['red','green','blue']","let array = [...array1, ...array2]"
+          ],
+          "images": {
+              "13":"https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-23%20%D0%B2%2012.56.20.png?alt=media&token=b04d2c34-7934-444f-a5fa-db9a6ae486f4",
+              "21": "https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-23%20%D0%B2%2013.53.23.png?alt=media&token=c4efa2e1-6df5-48e6-9553-6da285c27339",
+              "23": "https://firebasestorage.googleapis.com/v0/b/qazcode-92c01.appspot.com/o/tests%2FJavascript%2F%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-08-23%20%D0%B2%2014.29.24.png?alt=media&token=773cfeac-71bc-4fd9-a84a-34507243b00b"
+          }
+      }
+    }
+  }
+]
+

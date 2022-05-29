@@ -1,0 +1,677 @@
+
+@font-face {
+    font-family: Montserrat-Black; /* Имя шрифта */
+    src: url(font/Montserrat-Black.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Montserrat-Bold; /* Имя шрифта */
+    src: url(font/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Montserrat-Regular; /* Имя шрифта */
+    src: url(font/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+.Account {
+    width: 100%;height: 100%;
+    min-height: 100vh;font-size: 18px;
+    background-color: #fff; font-family: Montserrat-Regular;
+    line-height: 100%;
+}
+
+.account-nav-first  {
+    display: flex;flex-direction: column;
+    align-items: center;justify-content: center;
+    background-color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    box-shadow: 0px 20px 20px rgba(22, 1, 120, 0.4);
+}
+.account-nav-first label {
+    margin-top: 10px;color: #171719;
+    font-size: 15px;
+}
+.account-nav-first img{
+    width: 50px;
+}
+.account-nav-first span {
+    color: #171719;font-size: 16px;margin-top: 3px;font-family: Montserrat-Bold;
+}
+.account-nav {
+    width: 80%;
+    padding: 30px 10%;
+    display: flex;flex-direction: row-reverse;
+    justify-content: flex-end;
+
+    background-color: #5172F3;
+}
+
+.account-title {
+    margin-left: 5%;
+    color: white;
+    font-family: Montserrat-Black;font-size: 3em;
+    line-height: 100%;
+}
+@media(max-width: 458px) {
+    .account-title {font-size: 1.8em}
+}
+
+
+@media(max-width: 673px) {
+    .account_main {
+        width: 80%;
+        padding: 25px;
+        min-width: 180px;background-color: #fff;
+        box-shadow: 0px 5px 35px rgba(0,0,0,0.25);
+        margin: 25px auto;border-radius: 16px;
+        padding-bottom: 35px;
+    }
+    .account-nav-first span {margin-top: 5px}
+    .account-nav-first label {margin-top: 5px;margin-right: 10px}
+    .account-nav-first-control {
+    display: flex;flex-direction: column;
+        margin-left: 15px;
+    }
+    .account-nav-first {
+        display: flex;align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .account-nav {
+        flex-direction: column;
+    }
+    .account-title {
+        margin-left: 0px;
+    }
+}
+@media(min-width: 674px) {
+    .account_main {
+        width: calc(100% - 111px - 15% - 25px - 50px);
+        padding: 25px;
+        background-color: #fff;
+        padding-bottom: 35px;
+        margin-left: auto;
+        margin-top: -80px;margin-right: 5%; border-radius: 16px;
+        box-shadow: 0px 20px 35px rgba(0,0,0,0.25);
+    }
+    .account-nav-first-control {
+        display: flex;flex-direction: column;
+    }
+}
+
+
+
+.account_main h1 {
+    margin-left: 25px;
+    font-family: Montserrat-Bold;
+    color: #171719;
+    line-height: 100%;
+}
+
+.none {
+    display: none;
+}
+.courses-column-1 {
+    width: calc(50% - 7.5px);
+
+}
+.courses-column-2 {
+    width: calc(50% - 7.5px);
+}
+.my-course-item {
+    padding: 15px 20px;
+    position: relative;
+    display: flex;flex-direction: column;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.25);
+    border-radius: 16px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #8BD2FF, #4C7CEB);color:#fff;
+}
+.my-course-item-name {
+    z-index: 5;margin-left: 35px;
+    font-family: Montserrat-Black;
+    font-size: 25px;
+
+
+}
+.my-course-item-progress {
+    z-index: 5;margin-left: 35px;
+    font-family: Montserrat-Black;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.my-course-item-index {
+    position: absolute;
+    font-size: 6.5em;
+    font-family: Montserrat-Black;
+    top: 30px;
+    left: 25px;
+    color: rgba(230,230,230, 0.8);
+    z-index: 0;color: #689DC9;
+}
+
+@media(min-width: 1025px) {
+    .account-courses {
+        margin-left: 25px;margin-right: 25px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+@media(max-width: 1024px) {
+    .account_courses {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .courses-column-1 {
+        width: 100%;
+    }
+    .courses-column-2 {
+        width: 100%;
+    }
+
+}
+.account-footer {
+    width: 80%;
+    height: 100%;
+    color:#fff;
+    display: flex;flex-direction: row;
+    justify-content: space-between;
+    margin: 25px auto;
+    min-width: 280px;
+}
+.account-write-us {
+    position: relative;
+    background: #fff;
+    width: calc(50% - 7.5px);
+    display: flex;flex-direction: column;padding: 25px;
+    box-shadow: 0px 20px 60px rgba(0,0,0,0.2);
+    border-radius: 16px;color: #171719;
+}
+
+.foreground {
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.3;
+    bottom: 0px;
+    right: 25px;
+}
+
+.account-write-us div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 25px;left: 25px;
+    display: flex;flex-direction: column;
+    z-index: 2;
+}
+.account-settings {
+    position: relative;
+    margin-left: 15px;
+    background: #fff;
+    width: calc(50% - 7.5px);
+    display: flex;flex-direction: column;padding: 25px;
+    box-shadow: 0px 20px 60px rgba(0,0,0,0.2);
+    border-radius: 16px;color: #171719;
+}
+.account-settings div {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;flex-direction: column;
+}
+.acc-settings-title {
+    font-family: Montserrat-Black;
+    font-size: 35px;
+    line-height: 100%;
+}
+.acc-contact-subtitle {
+    z-index: 9;
+    font-size: 15px;
+    margin-top: 10px;
+    letter-spacing: -1px;
+    background-color: rgb(32, 74, 109);
+}
+
+.account-contact-title {
+    font-family: Montserrat-Black;
+    font-size: 35px;
+    line-height: 100%;
+}
+.account-contact-subtitle {
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+.post {
+    text-decoration: none;color: #171719;margin-top: 10px;
+    font-family: Montserrat-Bold;
+}
+.acc-change-psw {
+    margin-right: auto;
+    background: linear-gradient(135deg, #8BD2FF, #4C7CEB);
+    margin-left: 0px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 16px;
+    font-family: Montserrat-Bold;
+}
+@media(max-width: 944px) {
+    .account-footer {
+        flex-direction: column;
+    }
+    .account-settings {
+        width: calc(100% - 50px);
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    .account-write-us {
+        width: calc(100% - 50px);
+        margin-right: 0px;
+        position: relative;
+        height: 100%;
+        min-height: 120px;
+    }
+
+}
+.snackbar {
+    position: absolute;
+    bottom: 0;left: 0;width: calc(100% - 25px);
+    padding: 10px 25px;
+    position: fixed;
+    background-color: #04fa44;
+    font-size: large;font-family: Montserrat-Bold;color: #fff;
+    display: flex;flex-direction: row;align-items: center;justify-content: space-between;
+}
+.snackbar button{
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    color: #fff;
+}
+.hiden {
+    transition: 2s all ease-in-out;
+    transform: scale(0) translateY(20px);
+}
+.snackbar {
+    transition: 2s all ease-in-out;
+    animation: snack 1s ease-in-out;
+}
+@keyframes snack {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+
+.Motfound {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+}
+.notfound-main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;color: #fff;
+    font-family: Montserrat-Black;
+
+}
+
+
+.errorsymbol {
+
+    text-transform: uppercase;
+    font-family: Montserrat-Black;
+    font-size: 15em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16, 16, 16, 0.1),
+    1px 22px 10px rgba(16,16,16,0.1),
+    1px 25px 35px rgba(16,16,16,0.1),
+    1px 30px 60px rgba(16,16,16,0.1);
+}
+.notfound-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-direction: row;
+}
+.e1 {
+    transition: 1s all ease-in-out;
+    animation: jumpFromLeft 1s ease-in-out;
+}
+.e2 {
+
+    transition: 1.5s all ease-in-out;
+    animation: jumpFromTop 1.5s ease-in-out;
+}
+.e3 {
+    transition: 2s all ease-in-out;
+    animation: jumpFromRigth 2s ease-in-out;
+}
+.error-info {
+    display: flex;flex-direction: column;align-items: center;justify-content: center;
+    padding: 0px;
+    margin: 0;
+    margin-top: 10px;
+    animation: jumpFromBottom 2s ease-in-out;
+}
+.error-info label {
+    width: 100%;
+    margin: 0;padding: 0;
+    font-size: 18px;
+    font-family: Montserrat-Bold;
+}
+.error-info button {
+    background-color: #f3f5f7;
+    color: #171719;
+    width: calc(100%);
+    padding: 8px 0px;
+    border-radius: 12px;
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+}
+.certificates {
+    
+}
+.certificates a {
+    text-decoration: none;
+    color: #333;
+    font-family: Montserrat-Bold;
+}
+
+@keyframes jumpFromLeft {
+    from {
+        transform: scale(5) translateX(-200px);
+    }
+    to {
+        transform: scale(1) translateX(0px);
+    }
+}
+@keyframes jumpFromRigth {
+    0% {
+        transform: scale(5) translateX(200px);
+    }
+    30% {
+        transform: scale(5) translateX(200px);
+    }
+    100% {
+        transform: scale(1) translateX(0px);
+    }
+}
+@keyframes jumpFromTop {
+    0% {
+        transform: scale(5) translateY(-200px);
+    }
+    30% {
+        transform: scale(5) translateY(-200px);
+    }
+    100% {
+        transform: scale(1) translateY(0px);
+    }
+}
+@keyframes jumpFromBottom {
+    0% {
+        transform: scale(5) translateY(200px);
+    }
+    10% {
+        transform: scale(5) translateY(200px);
+    }
+    100% {
+        transform: scale(1) translateY(0px);
+    }
+}
+.account_profile_picture {
+    fill: #fff;
+    background-color: #fff;
+}
+
+
+.Statistics {
+    padding: 35px 10%;
+    width: 80%;
+}
+.statistics-main {
+    display: grid;
+    margin-top: 16px;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+}
+.st-subject {
+    background-color: #fff;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.15);
+    padding: 16px;
+    display: flex;flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.title {
+    font-family: Montserrat-Bold;
+    font-size: 35px;
+}
+.st-subject-info {
+    width: 100%;
+    font-family: Montserrat-Bold;
+    margin-left: 20px;
+    color: #222;
+    font-size: 20px;line-height: -1px;
+    display: flex;flex-direction: column;line-height: 105%;
+}
+.st-big {
+    font-size: 25px;
+    font-family: Montserrat-Bold;
+    line-height: 100%;
+    color: #333;
+    float: top;position: relative;
+}
+.st-row {
+    display: flex;flex-direction: column;
+    align-items: flex-start;justify-content: flex-start;
+}
+.st-medium {
+    margin-top: -5px;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+}
+.st-fill {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.st-fill:nth-child(2) {
+    width: calc(100% - 50px);
+    padding: 10px 25px;
+    background:#d7d6ff;
+    border-radius: 16px;
+    display: flex;flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.st-row {
+    display: flex;flex-direction: row;
+    width: 100%;
+}
+.s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    height: 100%;
+}
+
+
+
+.st-first {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(127, 123, 181, 0.5)
+}
+.st-first img {
+    filter: invert(42%) sepia(85%) saturate(2046%) hue-rotate(206deg) brightness(96%) contrast(91%);
+    width: 28px;
+}
+.st-second {
+    width: calc(100% - 60px);
+    font-family: Montserrat-Bold;
+}
+@media (max-width: 842px) {
+    .statistics-main {
+        grid-template-columns: 1fr;
+    }
+    .st-fill:nth-child(2) {
+        width: 70%;
+        min-width: 150px;
+    }
+}
+
+.s:nth-child(2) {
+    margin-left: 10%;
+}
+
+.wave-prg {
+    width: 20px;
+    position: relative;
+    width: 80%;
+}
+.st-icon1, .st-icon2 {
+    width: 45px;
+    height: 45px;
+    background-color: #e6d7ff;
+    border-radius: 50%;
+    display: flex;align-items: center;justify-content: center;
+}
+.st-icon2 {
+    background-color: #c3f7f0;
+}
+.img1 {
+    width: 25px;
+    margin-bottom: 5px;
+    filter: invert(21%) sepia(98%) saturate(6266%) hue-rotate(261deg) brightness(99%) contrast(100%);
+}
+.img2 {
+    width: 25px;
+    margin-bottom: 5px;
+}
+@media (max-width: 500px) {
+    .st-fill, .st-subject-info, .st-subject {
+        flex-direction: column;
+
+    }
+    .st-subject-info {
+        align-items: center;
+        margin-left: 0px;
+    }
+    .st-fill:nth-child(2) {
+        padding: 10px 15px;
+        margin: 10px 0px;
+    }
+    .st-row {
+        justify-content: space-between;
+        width: calc(80%);
+        padding-bottom: 10px;
+        border-bottom: 2px solid rgba(90,90,90,0.2);
+        align-items: center;
+        margin: auto;
+    }
+    .s:nth-child(2) {
+        margin-left: 0;
+    }
+    .st-second {
+        font-size: 15px;
+        font-family: Montserrat-Bold;
+    }
+}
+
+
+.certificates {
+    padding: 35px 8%;
+    width: 84%;
+    background-color: #5172F3;
+    color: #fff;
+    position: relative;
+}
+.certificate {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.certificate-canvas {
+    width:70%;
+    min-width: 220px;
+
+    max-height: 600px;
+}
+.control-bottom {
+    display: flex;flex-direction: column;
+    align-items: flex-start;justify-content: space-between;
+    position: absolute;
+    top: calc(5% + 35px + 43px);
+    right: 35px;
+    height: calc(95% - 113px)
+}
+.control-bottom button{
+    margin: 0;
+    background-color: #fff;
+    padding: 8px 16px;
+    font-size: 24px;font-family: Montserrat-Bold;
+    color: #333;border-radius: 16px;
+}
+.control-bottom img {
+    width: 24px;
+    margin: 0;
+    height: 24px;
+    background-color: #fff;
+    padding: 8px 16px;border-radius: 16px;
+}
+.cert-img {
+    width: 100%;
+}
+
+.phio {
+    font-family: "Montserrat-Bold";
+    margin-top: 8px;
+}
+ 

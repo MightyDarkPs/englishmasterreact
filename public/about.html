@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>English Master</title>
+    <style>
+        #map{
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/2b8e30593b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="fav.png">
+</head>
+<body>
+<div id="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="#">
+            <img src="fav.png"  height="70" class="d-inline-block " alt="">
+            English Master
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Index</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="course.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- Begin Article -->
+<article id="post" >
+
+    <div class="article-content">
+
+        <section  style="padding-top:40px;padding-bottom:40px" >
+            <div >
+                <div class="wpb_wrapper">
+                    <p><strong>It all started with two smart students studying English</strong></p>
+                    <p>The network of language schools was founded in 2021. We provide professional English courses for all levels.We have international qualifications in the field of teaching, as well as experience in teaching children and adults in different countries of the world. The use of communicative methodology in the study of foreign languages is the main focus of English Master.</p>
+                    <p>Every year we hold summer language camps for schoolchildren of all ages, theater performances and much more. We provide English language courses to corporate clients. </p>
+                </div>
+            </div>
+            <div>
+                <div class="wpb_wrapper">
+                    <p><strong>We believe in:</strong></p>
+                    <ul>
+                        <li>the power of native-speaker training</li>
+                        <li>interactive, personalized lessons</li>
+                        <li>client-centric training</li>
+                        <li>quality customer service</li>
+                        <li>empowered teachers and students</li>
+                        <li>the transformative power of language</li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+</article>
+<!-- End  Article -->
+<h2 style="text-align:center">Our Team</h2>
+<section id="profile">
+    <div class="container" >
+        <div class="row" id="cont">
+
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="di.jpg" alt="Dilnaz" style="width:100%">
+                    <div class="container">
+                        <h2>Akhmetzhan Dilnaz</h2>
+
+                        <p>English Teacher. IELTS 7.0</p>
+                        <p>dilnaz1234@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="tt.jpg" alt="Dilnaz" style="width:100%">
+                    <div class="container">
+                        <h2>Toktaganov Turlykhan</h2>
+
+                        <p>English Teacher. IELTS 7.0</p>
+                        <p>turlykhan@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="al.jpg" alt="Dilnaz" style="width:100%">
+                    <div class="container">
+                        <h2>Shaymuran Alisher</h2>
+
+                        <p>English Teacher. IELTS 7.0</p>
+                        <p>alisher1234@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6">
+                <div class="card">
+                    <img src="ai.jpg" alt="Aikhanym" style="width:100% ">
+                    <div class="container">
+                        <h2>Aikhanym Kuandyk</h2>
+                        <p>English teacher. IELTS 7.5</p>
+                        <p>aikhanym1234@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+<!--here we write a title above the map-->
+    <div style="text-align: center">
+        <h1>Where you can find us?</h1>
+        <p>Ave. Mangilik El. 55/8, Nur-Sultan 020000</p>
+    </div>
+    <!--here is container for out map-->
+    <div id="map">
+    </div>
+</section>
+<section id="footer">
+    <footer >
+        <a href="#header" ><i class="fa fa-arrow-up w3-margin-right"></i>Top</a>
+        <div>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+        </div>
+        <p>Powered by English Master</p>
+    </footer>
+</section>
+<script>
+    function bigImg(x) {
+        x.style.height = "105%";
+        x.style.width = "105%";
+    }
+
+    function normalImg(x) {
+        x.style.height = "100%";
+        x.style.width = "100%";
+
+    }
+//Here we initialize our map
+    function initMap(){
+        //first of all, we have written our latitude and longitude position in one variable
+        var pos = {lat: 51.088057, lng: 71.416688};
+        //after that, we just give that coordinates to out variable with zoom coefficient
+        var opt = {
+            center: pos,
+            zoom: 17
+        }
+        //then, we open our map on webpage in div with map id
+        var myMap = new google.maps.Map(document.getElementById("map"), opt);
+
+        //here we put a marker to place with hint
+        var marker = new google.maps.Marker({
+            position: pos,
+            map: myMap,
+            title: "EnglishMaster"
+        });
+
+        //here we made an information window if user will click to the marker
+        var info = new google.maps.InfoWindow({
+            content: '<h2>EnglishMaster</h2><p>Our office is located at Ave. Mangilik El. 55/8, Nur-Sultan 020000</p>'
+        });
+
+        marker.addListener("click", function (){
+            info.open(myMap, marker);
+        });
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--here we connected google map API-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh_qUtttuskg67f3TsX6rwmYAZ-6-kfvA&callback=initMap"></script>
+
+</body>
+</html>
