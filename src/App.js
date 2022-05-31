@@ -5,7 +5,7 @@ import './Course.css';
 import laptop from './imgs/laptop.png'
 import Typed from 'react-typed';
 import language from './language'
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
 import {Redirect} from 'react-router-dom'
@@ -162,7 +162,6 @@ export default class App extends  React.Component{
             <button onClick={()=>scrollToComponent(this.login, { offset: 0, align: 'top', duration: 1500})}>Log in</button>
             <button onClick={()=>{ window.location.href = "about.html" }}>About Us</button>
             <button onClick={()=>{ window.location.href = "course.html" }}>Courses</button>
-            <button onClick={()=>{ window.location.href = "contact.html" }}>Contact</button>
         </div>
         <img style={{left: this.state.offset + 200/5 }} className="intro-element" src={require("./imgs/element1.png")}/>
         <img style={{right: this.state.offset + 200/5 }} className="intro-element2" src={require("./imgs/element2.png")}/>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Configure.css'
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import {Redirect} from 'react-router-dom'

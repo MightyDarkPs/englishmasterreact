@@ -6,7 +6,7 @@ import Account from './Account';
 import Admin from './Admin'
 import Course from './Course';
 import * as serviceWorker from './serviceWorker';
-import * as firebase from 'firebase';
+import firebase from 'firebase/app'
 import Teacher from './Teacher'
 import NotFound from './Notfound'
 import Finished from './comp/Finished'

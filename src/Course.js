@@ -1,6 +1,6 @@
 import React from 'react';
 import './Course.css';
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
 import VideoPlayer from 'react-video-js-player';

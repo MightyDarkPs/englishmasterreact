@@ -1,6 +1,6 @@
 import React from 'react';
 import './Configure.css'
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import {Redirect} from 'react-router-dom'
@@ -136,7 +136,7 @@ export default class Admin extends React.Component {
     }
 
     validatePasswod = (password) => {
-        return (password.match("/^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/\n"));
+        return (password.match("(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W)"));
     }
 
 
@@ -563,8 +563,11 @@ export default class Admin extends React.Component {
                                 <div className="requirements">
                                     <li>there are small letters</li>
                                     <li>there are capital letters</li>
-                                    <li>there are small letters</li>
-                                    <li>there are capital letters</li>
+                                    <li>there are special
+                                        characters</li>
+                                    <li>password
+                                        longer than 7
+                                        characters</li>
 
                                 </div>
                             </div> :

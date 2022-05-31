@@ -1,5 +1,5 @@
 import React from 'react';
-import * as firebase from 'firebase/app';
+import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 import './Account.css';
@@ -12,7 +12,7 @@ import empty from './imgs/empty.png'
 import 'react-s-alert/dist/s-alert-default.css';
 import 'react-s-alert/dist/s-alert-css-effects/slide.css';
 import Certificated from './code/Certificates'
-import htmlToImage from 'html-to-image';
+import { toPng, toJpeg, toBlob, toPixelData, toSvg } from 'html-to-image';
 import Calendar from './comp/Calendar'
 import Review from "./comp/Review";
 
@@ -192,7 +192,7 @@ export default class Account extends React.Component {
         var course_level = document.getElementById("canvas-level").textContent = "Level " + obj[this.state.currentIndex]["level"]
         console.log(node)
         setTimeout(() => {
-            htmlToImage.toJpeg(node,{ quality: 0.9, style:{margin: 0}})
+            toJpeg(node,{ quality: 0.9, style:{margin: 0}})
                 .then(function (dataUrl) {
 
 
