@@ -1,3 +1,5 @@
+This project made by Toktaganov Turlykhan and Imanbaeva Dilnaz BDA-2102
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
