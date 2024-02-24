@@ -160,7 +160,6 @@ export default class App extends  React.Component{
             <img className="logo-txt" src={require("./imgs/qazcode.png")}/>
             <button className="btn" onClick={()=>scrollToComponent(this.mycourseref, { offset: 0, align: 'bottom', duration: 1500})}>Features</button>
             <button onClick={()=>scrollToComponent(this.login, { offset: 0, align: 'top', duration: 1500})}>Log in</button>
-            // <button onClick={()=>{ window.location.href = "about.html" }}>About Us</button>
             <button onClick={()=>{ window.location.href = "course.html" }}>Courses</button>
         </div>
         <img style={{left: this.state.offset + 200/5 }} className="intro-element" src={require("./imgs/element1.png")}/>
